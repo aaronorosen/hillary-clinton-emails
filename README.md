@@ -78,7 +78,7 @@ Running `make all` in the root directory will download the data (~162mb total) a
 
 *This has only been tested on OS X, it may or may not work on other operating systems.*
 
- - python3
+ - python
    - pandas
    - arrow
    - numpy
