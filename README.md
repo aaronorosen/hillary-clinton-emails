@@ -88,6 +88,6 @@ Running `make all` in the root directory will download the data (~162mb total) a
 
 # References
 
-The source PDF documents for this repo were downlaoded from the [WSJ Clinton Inbox search](http://graphics.wsj.com/hillary-clinton-email-documents/).
+The source PDF documents for this repo were downloaded from the [WSJ Clinton Inbox search](http://graphics.wsj.com/hillary-clinton-email-documents/).
 
 I created this project before I realized the WSJ also open-sourced some code they used to create the Inbox Search. Subsequently, I've included some material from their open source project as well: I used their [HRCEMAIL_names.csv](https://raw.githubusercontent.com/wsjdata/clinton-email-cruncher/d8dc1916465b90e4147460f9e432cf9cafc8d3b5/HRCEMAIL_names.csv) to seed [alias_person.csv](https://github.com/benhamner/hillary-clinton-emails/blob/master/versionedInput/alias_person.csv). I also scraped metadata from foia.state.gov in a similar fashion as they did in [downloadMetadata.py](https://github.com/wsjdata/clinton-email-cruncher/blob/master/downloadMetadata.py).
